@@ -5,13 +5,14 @@ Analytics microservice for capturing and processing website user interaction dat
 - docker build -t samathikisalka/analytics-service:latest .
 - docker push samathikisalka/analytics-service:latest
 
+#### Deploy Analytics Service
 
-- kubectl apply -f k83/analytics-deployment.yaml
-- kubectl apply -f k83/analytics-service.yaml
+- kubectl apply -f k8s/analytics-deployment.yaml
+- kubectl apply -f k8s/analytics-service.yaml
 
   #### clickHouse
   
-- kubectl apply -f k83/clickhouse-deployment.yaml
-- kubectl apply -f k83/clickhouse-service.yaml
+- kubectl apply -f k8s/clickhouse-deployment.yaml
+- kubectl apply -f k8s/clickhouse-service.yaml
 
 
