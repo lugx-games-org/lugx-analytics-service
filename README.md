@@ -14,5 +14,9 @@ Analytics microservice for capturing and processing website user interaction dat
   
 - kubectl apply -f k8s/clickhouse-deployment.yaml
 - kubectl apply -f k8s/clickhouse-service.yaml
+- kubectl port-forward svc/clickhouse 8123:8123
+
+  http://localhost:8123/
+
 
 
