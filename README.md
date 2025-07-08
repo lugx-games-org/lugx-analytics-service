@@ -8,5 +8,10 @@ Analytics microservice for capturing and processing website user interaction dat
 
 - kubectl apply -f k83/analytics-deployment.yaml
 - kubectl apply -f k83/analytics-service.yaml
+
+  #### clickHouse
+  
 - kubectl apply -f k83/clickhouse-deployment.yaml
 - kubectl apply -f k83/clickhouse-service.yaml
+
+
